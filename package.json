@@ -1,0 +1,28 @@
+{
+  "name": "git-hooks",
+  "description": "Git hook utilities for local and remote repositories.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Bruno Basto",
+    "email": "bruno.basto@liferay.com",
+    "twitter": "bbasto"
+  },
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brunobasto/git-hooks.git"
+  },
+  "keywords": [
+    "git",
+    "hook",
+    "pre-commit",
+    "trigger"
+  ],
+  "devDependencies": {
+    "nexpect": "~0.4.2",
+    "node-notifier": "~3.1.3"
+  },
+  "engines": {
+    "node": ">=0.11.9"
+  }
+}
