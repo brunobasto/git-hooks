@@ -1,3 +1,4 @@
 *.nw
+*.sample
 bower_components/*
 node_modules/*
