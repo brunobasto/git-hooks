@@ -1,6 +1,7 @@
 {
-  "name": "git-hooks",
+  "name": "lfr-git-hooks",
   "description": "Git hook utilities for local and remote repositories.",
+  "main": "src/index.html",
   "version": "0.0.1",
   "author": {
     "name": "Bruno Basto",
@@ -20,9 +21,23 @@
   ],
   "devDependencies": {
     "nexpect": "~0.4.2",
-    "node-notifier": "~3.1.3"
+    "node-notifier": "~3.1.3",
+    "yui": "~3.17.2",
+    "node-webkit-builder": "~0.1.1",
+    "gulp": "~3.8.7",
+    "gulp-load-plugins": "~0.5.3",
+    "gulp-zip": "~1.0.0",
+    "nodegit": "~0.1.4",
+    "promise": "~5.0.0"
   },
   "engines": {
     "node": ">=0.11.9"
+  },
+  "webkit": {
+    "plugin": true,
+    "page-cache": false
+  },
+  "window": {
+    "show": false
   }
 }
