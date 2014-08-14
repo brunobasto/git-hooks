@@ -1,5 +1,5 @@
 {
-  "name": "lfr-git-hooks",
+  "name": "node-tasker",
   "description": "Git hook utilities for local and remote repositories.",
   "main": "src/index.html",
   "version": "0.0.1",
